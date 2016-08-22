@@ -1,0 +1,13 @@
+- repo: git://github.com/pre-commit/pre-commit-hooks
+  sha: 775a7906cd6004bec2401a85ed16d5b3540d2f94
+  hooks:
+  - id: check-added-large-files
+  - id: check-json
+    files: \.(bowerrc|jshintrc|json)$
+  - id: check-yaml
+  - id: debug-statements
+  - id: end-of-file-fixer
+  - id: fix-encoding-pragma
+  - id: name-tests-test
+    files: ^yelp/tests/.+\.py$
+  - id: trailing-whitespace

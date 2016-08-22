@@ -1,0 +1,7 @@
+-r requirements.txt
+
+PyYAML
+
+flake8
+mock
+pytest
